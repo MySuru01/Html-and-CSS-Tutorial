@@ -218,7 +218,7 @@ div #social-icons a{
 /* responsive ipad */
  @media only screen and (max-width: 860px) {
     #navbar ul li {        
-        padding-right: 30px;
+        padding-right: 30px;  
         
 }
  }
