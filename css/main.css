@@ -1,0 +1,224 @@
+/* font */
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(/fonts/CodaCaption-ExtraBold.ttf);
+}
+*{
+    font-family: Quicksand;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    font-family: CodaCaption-ExtraBold;
+}
+.uni-padi{
+    padding: 0 7%;
+}
+/* topbar */
+#topbar{
+    background-color: dimgrey;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: white;
+    
+}
+#social-icons{
+    float: right;
+    
+}
+div #social-icons a{
+    background-color: aliceblue;
+    color:dimgray;
+    padding: 6px;
+    border-radius: 50%;
+    padding: 5px 7px;
+    
+}
+/* logobar */
+#logo img{
+    width: 50px;
+    margin: 10px 0px;
+    border-radius: 1px;
+    
+}
+#navbar{
+    background-color: red;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 15px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* poster */
+#poster{
+    background-image: url(../images/bg3.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67, 65, 65);
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+/* why us */
+#whysection{
+    overflow: auto;
+}
+.red-head{
+    color: crimson;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 50px 0px 50px;
+    
+}
+#contect-c{
+    background-color: rgb(225, 72, 72);
+    color: white;
+    overflow: auto;
+}
+.section70{
+    width: 70%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 67px;
+}
+.section70 h2{
+    text-align: center;
+}
+.section70 p{
+    text-align: center;
+}
+#c-btn{
+    background-color: aliceblue;
+    color: red;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+#subscribe-section{
+    background-color: red;
+    color: white;
+    display: flex;
+    
+    
+
+}
+.section50{
+    padding: 20px 0 20px 0;
+    width: 50%;
+    text-align: right;
+}
+.section50 input[type="email"]{
+    padding: 10px 50px;
+    font-size: 15px;    
+    margin-right: 20px;
+    border: 0px;
+    outline: none;
+    width: 45%;
+
+}
+.section50 input[type="submit"]{
+    padding: 10px 50px;
+    color: red;
+    border: 0px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+/* footer */
+#imp-link{
+    background-color: dimgray;
+    overflow: auto;
+    color: white;
+}
+.div3{
+   width: 33.33%;
+   float: left;
+   padding: 25px 50px;
+   
+}
+
+.div3 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.div3 p {
+    padding-top: 25px;
+}
+.div3 ul{
+    padding-top: 25px;
+}
+#footer-menu{
+    list-style-type: none;
+       
+}
+#footer-menu li{
+    padding-bottom: 5px;
+    
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#copyright{
+    background-color: rgb(58, 56, 56);
+}
+#footer-me p{
+    text-align: justify;
+}
+#copyright p{
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+}
+
+/* responsive ipad */
+ @media only screen and (max-width: 860px) {
+    #navbar ul li {        
+        padding-right: 30px;
+        
+}
+ }
